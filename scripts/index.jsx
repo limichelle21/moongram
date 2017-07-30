@@ -1,3 +1,7 @@
+
+
+
+
 // Cache gallery container
 
 const galleryContainer = document.querySelector('.react-gallery');
@@ -5,10 +9,10 @@ const galleryContainer = document.querySelector('.react-gallery');
 // Create array of image URLS
 
 let imgUrls = [
-  'https://photos.app.goo.gl/o44aEByEjXiEm6083',
-  'https://photos.app.goo.gl/uj574cG0HwCBLisF3',
-  'https://photos.app.goo.gl/U9FSHZpGbTWnI49b2',
-  'https://photos.app.goo.gl/SwuDp2qeSzVLoX3t1'
+  'https://static.pexels.com/photos/346885/pexels-photo-346885.jpeg',
+  'https://static.pexels.com/photos/297755/pexels-photo-297755.jpeg',
+  'https://images.pexels.com/photos/196666/pexels-photo-196666.jpeg',
+  'https://static.pexels.com/photos/338515/pexels-photo-338515.jpeg'
 ]
 
 // Component for gallery image
@@ -91,4 +95,4 @@ class Gallery extends React.Component {
 
 // Render the gallery
 ReactDOM.render(
-  <Gallery imgUrls={imgUrls} />, galleryContainer);
+  <Gallery imgUrls={imgUrls} />, document.getElementById('react-gallery');
