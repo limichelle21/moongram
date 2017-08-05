@@ -95,4 +95,4 @@ class Gallery extends React.Component {
 
 // Render the gallery
 ReactDOM.render(
-  <Gallery imgUrls={imgUrls} />, document.getElementById('react-gallery');
+  <Gallery imgUrls={imgUrls} />, document.getElementById('react-gallery'));
